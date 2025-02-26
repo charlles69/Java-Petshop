@@ -58,9 +58,9 @@ public class PetShop {
 				System.out.println("Opção inválida! Tente novamente.");
 				break;
 			}
-			while  (opcao != 4);
-			}
+
 		}
+		while  (opcao != 4);
 
 	}
 
