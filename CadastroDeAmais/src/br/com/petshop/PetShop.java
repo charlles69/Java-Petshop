@@ -17,7 +17,7 @@ public class PetShop {
 			System.out.println("3 - Exibir animais");
 			System.out.println("4 - Sair");
 			System.out.println("escolha uma opção");
-			opcao = scanner.nextLine();
+			opcao = scanner.nextInt();
 			
 			switch(opcao) {
 			
@@ -59,7 +59,6 @@ public class PetShop {
 				break;
 			}
 			while  (opcao != 4);
-				
 			}
 		}
 
